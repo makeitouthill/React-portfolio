@@ -5,14 +5,15 @@ import '../App.css';
 function Footer() {
   return (
     <footer className="footer">
+        <h4>Contact Me At:</h4>
       <ul className="footer-icons">
         <li>
-          <a href="https://github.com/makeitouthill" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/makeitouthill" target="_blank" rel="noopener noreferrer">
             <FaGithub/>
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/alex-horning-04249225a/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/alex-horning-04249225a/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin/>
           </a>
         </li>
