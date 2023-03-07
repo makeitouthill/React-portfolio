@@ -37,6 +37,14 @@
   }
 }
 
+:root {
+  --primary-color: #092327;
+  --secondary-color: #0B5351;
+  --tertiary-color: #00A9A5;
+  --accent-color: #4E8098;
+  --background-color: #90C2E7;
+}
+
 #about-me {
   display: flex;
   flex-direction: column;
@@ -53,4 +61,40 @@
   #about-me img {
     max-width: 200px;
   }
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 0.5rem;
+  background-color: var(--background-color);
+  color: var(--primary-color);
+}
+
+.project-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: var(--secondary-color);
+}
+
+.project-links {
+  display: flex;
+  justify-content: center;
+}
+
+.project-links a {
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+  color: var(--tertiary-color);
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
 }
