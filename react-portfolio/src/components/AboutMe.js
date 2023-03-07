@@ -1,5 +1,6 @@
 import React from "react";
 import Portfolio from '../images/Portfolio-image.jpg';
+import '../App.css';
 
 function AboutMe(){
     return(
