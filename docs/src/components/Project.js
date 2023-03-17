@@ -1,11 +1,12 @@
 import React from 'react';
 import '../App.css';
 
-function Project({ title, image, deployedLink, githubLink }) {
+function Project({ title, image, deployedLink, githubLink, description }) {
   return (
     <div id="about-me" className="project">
       <img src={image} alt={title}/>
       <div className="project-title">{title}</div>
+      <div className="project-description">{description}</div>
       <div className="project-links">
         <a href={deployedLink} target="_blank" rel="noopener noreferrer">
           Deployed Link
